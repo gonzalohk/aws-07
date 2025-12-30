@@ -32,7 +32,7 @@ jobs:
         run: |
           sam build
           sam deploy \
-              --stack-name db-cf-test02 \
+              --stack-name db-cf-test03 \
               --region us-east-1 \
               --capabilities CAPABILITY_IAM \
               --resolve-s3 \
