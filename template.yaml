@@ -50,7 +50,7 @@ Resources:
             Path: /shorten
             Method: POST
 
- ResolveShortUrlFunction:
+  ResolveShortUrlFunction:
     Type: AWS::Serverless::Function
     Properties:
       FunctionName: ResolveShortUrlFunction
